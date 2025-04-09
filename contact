@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel=stylesheet href=styles.css>
+		<link rel=icon href=favicon.ico>
+	</head>
+	<body>
+		<div class="navbar">
+			 <a class=navlink href=home>Home</a>
+			 <a class=navlink href=articles>Articles</a>
+			 <a class=navlink-active href=contact>Contact</a>
+			 <a class=navlink href=projects>Projects</a>
+		</div>
+		<h1 class=title>CyberInsecurity</h1>
+		<h2 class=subtitle style=font-size:45px>Contact And Social Media</h1>
+		<div class=content>
+			<div class=main-text style=text-align:center;>
+				<p>If you have questions, concerns, or suggestions feel free to ask me!</p>
+				<p>I'll answer as quickly as possible but please be patient</p>
+				<p>Please encrypt sensitive content with PGP (or OMEMO on XMPP)</p>
+			</div>
+		</div>
+		<div class=icon-link style=padding-bottom:100px;>
+			<a title=Email class=icon-email href=mailto:wrenb@firemail.cc>󰇮</a>
+			<a title=Text class=icon-sms href=sms:+18014550245>󰍩</a>
+			<a title=Call class=icon-phone href=tel:+18014550245></a>
+			<a title=XMPP class=icon-xmpp href=xmpp:wren@404.city>󰟿</a>
+			<a title=Mastodon class=icon-mastodon href=https://mastodon.social/@_Wren target=blank></a>
+			<a title=Github class=icon-github href=https://github.com/WrenHavoc target=blank></a>
+			<a title=PGP class=icon-pgp href=https://keys.openpgp.org/search?q=wrenb%40firemail.cc target=blank></a>
+			<a title=Gravatar class=icon-gravatar href=https://gravatar.com/wrenburchett target=blank></a>
+		</div>
+	</body>
+</html>

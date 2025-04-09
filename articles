@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Articles</title>
+		<link rel=stylesheet href=styles.css>
+		<link rel=icon href=favicon.ico>
+	</head>
+	<body>	
+		<div class="navbar">
+			 <a class=navlink href=home>Home</a>
+			 <a class=navlink-active href=articles>Articles</a>
+			 <a class=navlink href=contact>Contact</a>
+			 <a class=navlink href=projects>Projects</a>
+		</div>
+		<h1 class=title>CyberInsecurity</h1>
+		<h2 class=subtitle style=font-size:45px;>Articles</h2>
+		<div class=article-list>
+			<div class=article-container style=border:none;>
+				<p class=article-date>x/x/xxxx</p>
+				<a class=linked-header href=article/hacker-rant>
+					<h2>A Hacker's Rant</h2>
+				</a>
+				<p class=article-description>
+				A series where I complain about the modern digital world.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

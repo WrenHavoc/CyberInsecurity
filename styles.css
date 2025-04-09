@@ -1,0 +1,255 @@
+body{
+	background-color:#111;
+	margin:0px;
+}
+
+html{
+	margin:0px;
+}
+
+@font-face{
+	font-family:"TempestApache";
+	src:url(Fonts/TempestApache.otf);
+}
+
+@font-face{
+	font-family:"AmericanCaptainPatrius";
+	src:url(Fonts/AmericanCaptainPatrius.otf);
+}
+
+@font-face{
+	font-family:"NF-DejaVuSansMono";
+	src:url(Fonts/DejaVuSansMNerdFontMono-Regular.ttf);
+}
+
+/*title and header*/
+.title{
+	color:#0f0;
+	text-align:center;
+	font-family:TempestApache;
+	font-size:100px;
+	padding-top:175px;
+}
+
+.subtitle{
+	color:#0f0;
+	text-align:center;
+	margin:auto;
+	padding-bottom:20px;
+	width:550px;
+	font-family:AmericanCaptainPatrius;
+}
+
+/*home article list*/
+.article-list{
+	width:900px;
+	margin:auto;
+	border-style:solid;
+	border-color:green;
+	border-right:none;
+	border-left:none;
+}
+
+.article-title{
+	color:#0f0;
+	text-align:center;
+	text-decoration:underline;
+	padding-bottom:20px;
+	font-family:AmericanCaptainPatrius;
+}
+
+.linked-header{
+	color:#0f0;
+	text-decoration:none;
+	text-align:center;
+	font-family:AmericanCaptainPatrius;
+}
+
+.linked-header:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.article-description{
+	color:#fff;
+	padding-bottom:20px;
+	font-family:NF-DejaVuSansMono;
+}
+
+.article-date{
+	color:#777;
+	font-family:NF-DejaVuSansMono;
+	font-size:12px;
+	text-align:right;
+	margin:0px;
+	float:right;
+}
+
+.article-tags{
+	color:#444;
+	text-decoration:none;
+	font-family:NF-DejaVuSansMono;
+}
+
+.article-tags-break{
+	color:#444;
+	font-family:NF-DejaVuSansMono;
+}
+
+.article-tags:hover{
+	color:#bbb;
+}
+
+.article-container{
+	width:700px;
+	margin:auto;
+	padding:20px;
+	padding-bottom:10px;
+	border-bottom:solid;
+	border-color:#444;
+}
+
+/*Article content*/
+.content{
+	width:700px;
+	margin:auto;
+}
+
+.main-text{
+	font-family:NF-DejaVuSansMono;
+	color:#fff;
+}
+
+.icon-link{
+	font-family:NF-DejaVuSansMono;
+	font-size:60px;
+	text-align:center;
+	padding-top:100px;
+}
+
+.icon-github{
+	color:#fff;
+	text-decoration:none;
+}
+
+a.icon-github:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.icon-mastodon{
+	color:#72f;
+	text-decoration:none;
+}
+
+a.icon-mastodon:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.icon-email{
+	color:#f44;
+	text-decoration:none;
+}
+
+a.icon-email:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.icon-phone{
+	color:#070;
+	text-decoration:none;
+}
+
+a.icon-phone:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.icon-sms{
+	color:#07f;
+	text-decoration:none;
+}
+
+a.icon-sms:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.icon-xmpp{
+	color:#5f5;
+	text-decoration:none;
+}
+
+a.icon-xmpp:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.icon-pgp{
+	color:#0f0;
+	text-decoration:none;
+}
+
+a.icon-pgp:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.icon-gravatar{
+	color:#49f;
+	text-decoration:none;
+}
+
+a.icon-gravatar:hover{
+	text-decoration:underline;
+	text-decoration-color:#fff;
+}
+
+.image-frame{
+	margin:auto;
+	border-style:solid;
+	border-width:1px;
+	border-color:#0f0;
+}
+
+.example-image{	
+	object-fit:contain;
+	width:100%;
+	height:100%;
+}
+
+.section-header{
+	color:#0f0;
+	text-align:center;
+	font-family:AmericanCaptainPatrius;
+	padding-bottom:20px;
+	padding-top:60px;
+}
+
+/*Navigation*/
+
+.navbar{
+	text-align:center;
+	background-color:#222;
+	padding:20px;
+	font-family:AmericanCaptainPatrius;
+}
+
+.navlink{
+	color:#0f0;
+	text-decoration:none;
+	padding:5px;
+}
+
+.navlink-active{
+	color:#fff;
+	padding:5px
+}
+
+.navlink:hover{
+	background-color:#fff;
+	color:#000;
+}
+
