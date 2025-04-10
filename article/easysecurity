@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Easy Security</title>
+		<link rel=stylesheet href=../styles.css>
+		<link rel=icon href=../favicon.ico>
+	</head>
+	<body>
+		<div class="navbar">
+			 <a class=navlink href=../home>Home</a>
+			 <a class=navlink href=../articles>Articles</a>
+			 <a class=navlink href=../contact>Contact</a>
+			 <a class=navlink href=../projects>Projects</a>
+		</div>
+		<h1 class=title>Easy Security</h1>
+		<h2 class=subtitle>Improve your security without making your life hard.</h2>
+		<div class=image-frame style=width:500px>
+			<img src=../Images/hackedcomputer.png class=image>
+			<p class=main-text style=text-align:center;font-size:12px;>Image Author: Jason Kravitz</p>
+		</div>
+		<div class=content>
+			<p class=main-text>
+			Security can be complicated, and in the modern world it seems like the only way to be safe online is by not going online at all. Although it may not seem like it, you can protect yourself from getting digitally fucked without getting rid of the convenience you're used to.
+			</p>
+			<h2 class=section-header>Password Managers</h2>
+			<p class=main-text>
+			Many people use the same password for everything meaning if one of their accounts is hacked, all of them are. Even people who use different passwords are still unsafe because they are forced to give up security for memorability. That is where a password manager comes in. A password manager securely stores all of your passwords in one spot so you only need to remember one password. KeePassXC is arguably the best out there. It encrypts your passwords using AES and stores them all locally. Even if someone gets into your computer, they still won't get your passwords. Bitwarden is another great alternative if you're looking for a cloud based password manager.
+			</p>
+			<h2 class=section-header>Secure Messaging</h2>
+			<p class=main-text>
+			info
+			</p>
+			<h2 class=section-header>Darknets</h2>
+			<p class=main-text>
+			info
+			</p>
+			<h2 class=section-header>File Encryption</h2>
+			<p class=main-text>
+			info
+			</p>
+			<br style=padding-bottom:100px;>
+		</div>
+	</body>
+</html>

@@ -17,11 +17,11 @@
 		<div class=article-list>
 			<div class=article-container style=border:none;>
 				<p class=article-date>x/x/xxxx</p>
-				<a class=linked-header href=article/hacker-rant>
-					<h2>A Hacker's Rant</h2>
+				<a class=linked-header href=article/easysecurity>
+					<h2>Easy Security</h2>
 				</a>
 				<p class=article-description>
-				A series where I complain about the modern digital world.
+				Do you want to protect your digital life but don't like how complicated security can become? Here's how you can improve your security without making your life hard.
 				</p>
 			</div>
 		</div>
