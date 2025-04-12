@@ -4,6 +4,7 @@
 		<title>CyberInsecurity</title>
 		<link rel="stylesheet" href="styles.css">
 		<link rel="icon" href="favicon.ico">
+		<link rel="me" href="https://mastodon.social/@_Wren">
 	</head>
 	<body>
 		<div class="navbar">
@@ -14,7 +15,7 @@
 		</div>
 		<div class=home>
 			<h1 class=title>CyberInsecurity</h1>
-			<h2 class=subtitle>Software And Cybersecurity Blog With A Hint Of Self-Loathing And Hatred For Authority</h2>
+			<h2 class=subtitle style=border:none;font-size:20px;width:700px;>Software And Cybersecurity Blog With A Hint Of Self-Loathing And Hatred For Authority</h2>
 		</div>
 	</body>
 </html>

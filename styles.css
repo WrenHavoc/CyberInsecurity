@@ -29,15 +29,22 @@ html{
 	font-family:TempestApache;
 	font-size:100px;
 	padding-top:175px;
+	margin:auto;
 }
 
 .subtitle{
 	color:#0f0;
 	text-align:center;
 	margin:auto;
-	padding-bottom:20px;
+	margin-bottom:50px;
+	padding-bottom:5px;
 	width:550px;
 	font-family:AmericanCaptainPatrius;
+	font-size:30px;
+	border-bottom:solid;
+	border-color:#444;
+	
+
 }
 
 /*home article list*/
@@ -219,6 +226,13 @@ a.icon-gravatar:hover{
 	object-fit:contain;
 	width:100%;
 	height:100%;
+}
+
+.image-credit{
+	font-family:NF-DejaVuSansMono;
+	color:#fff;
+	text-align:center;
+	font-size:12px;
 }
 
 .section-header{

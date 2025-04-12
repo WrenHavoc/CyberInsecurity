@@ -17,11 +17,11 @@
 		<div class=article-list>
 			<div class=article-container style=border:none;>
 				<p class=article-date>x/x/xxxx</p>
-				<a class=linked-header href=article/easysecurity>
-					<h2>Easy Security</h2>
+				<a class=linked-header href=article/anti-censorship>
+					<h2>A Hacker's Rant: Anti-Censorship</h2>
 				</a>
 				<p class=article-description>
-				Do you want to protect your digital life but don't like how complicated security can become? Here's how you can improve your security without making your life hard.
+				Series where I rant about current issues as well as give advice where needed. In this issue, I discuss censorship, what it is, why it's bad, and how to stop it.
 				</p>
 			</div>
 		</div>
