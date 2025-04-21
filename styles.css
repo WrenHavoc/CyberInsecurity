@@ -250,6 +250,8 @@ a.icon-gravatar:hover{
 	background-color:#222;
 	padding:20px;
 	font-family:AmericanCaptainPatrius;
+	position:fixed;
+	width:100%;
 }
 
 .navlink{
