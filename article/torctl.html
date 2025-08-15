@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Torctl</title>
+		<link rel=stylesheet href=../styles.css>
+		<link rel=icon href=../favicon.ico>
+	</head>
+	<body>
+		<div class="navbar">
+			 <a class=navlink href=../home.html>Home</a>
+			 <a class=navlink href=../articles.html>Articles</a>
+			 <a class=navlink href=../contact.html>Contact</a>
+			 <a class=navlink href=../projects.html>Projects</a>
+		</div>
+		<h1 class=title>Torctl</h1>
+		<h2 class=subtitle>Full System Anonymization</h2>
+		<div class=content>
+			<p class=main-text>
+			Privacy and security in the digital age is becoming more complex every day. Corporations, governments, and threat actors are constantly finding new ways to track users. Thankfully, we have tools that can help combat this. A determined enough user can hide themselves from even a well funded threat like governments.
+			<br>
+			<br>
+			The Tor network is a commonly used tool to hide a user's activities and IP. It works well, is a reasonable speed, and is stupidly easy to get working. It also is able to evade censorship and firewalls. However, it does have a few issues. The most common problem is programs that refuse to route through Tor.
+			<br>
+			<br>
+			Torsocks solves this problem for some apps, however it doesn't work with everything. I've specifically had trouble getting nmap, discord, and spotify to work using it.
+			<div class=image-frame style='width:700px'>
+				<img src=../Images/torsocks.png class=image>
+				<hr style='border-color:#0f0'>
+				<p class=main-text style='text-align:center'>Nmap and Torsocks</p>
+			</div>
+			</p>
+			<h2 class=section-header>The Solution</h2>
+			<p class=main-text>
+			So how does one solve this problem? I've found the Torctl works best. It was developed for BlackArch but also works on debian and ubuntu distros.</p>
+			<div class=image-frame style='width:700px'>
+				<img src=../Images/torctl.png class=image>
+				<hr style='border-color:#0f0'>
+				<p class=main-text style='text-align:center'>Torctl</p>
+			</div>
+			<p class=main-text>
+			The program routes all network traffic through the Tor network. It doesn't matter if it's HTTP, FTP, SMTP, IMAP, or any other protocol, It'll get routed through Tor. The command format is extremely simple too, making it so even new linux users can quickly learn and memorize it's usage. Installation can be a little complicated though so I'll try my best to explain it.
+			</p>
+			<h1 class=title>Torctl</h1>
+			<h2 class=subtitle>Installation</h2>
+			<h2 class=section-header>BlackArch</h2>
+			<p class=main-text>
+			Torctl is built for BlackArch so it's no surprise it has the easiest installation.
+			Just run 
+			<br>
+			<code>sudo pacman -S torctl</code>
+			<br>
+			in your terminal.
+			</p>
+			<h2 class=section-header>Debian and Ubuntu</h2>
+			<p class=main-text>
+			The first thing we need to do is install the program's dependancies. It needs Tor, MacChanger, and Secure Delete. You'll also need git for the installation process.
+			You can install them by running 
+			<br>
+			<code>sudo apt install git tor macchanger secure-delete</code>
+			<br>
+			in your terminal.
+			<br><br>
+			Next, you need to clone the git repository and enter it.
+			<br>
+			<code>git clone https://github.com/BlackArch/torctl && cd torctl</code>
+			<br><br>
+			Now you need to move the service folder and the Torctl program to the proper directories. Run the two following commands.
+			<br>
+			<code>sudo mv service/* /etc/systemd/system/</code>
+			<br>
+			<code>sudo mv bash-completion/torctl /usr/share/bash-completion/completions/torctl</code>
+			<br><br>
+			Now you should finish configuring torctl
+			<br>
+			<code>sed -i 's/start_service iptables//' torctl</code>
+			<br>
+			<code>sed -i 's/TOR_UID="tor"/TOR_UID="debian-tor"/' torctl</code>
+			<br><br>
+			Lastly, we need to move Torctl into the binaries folder
+			<br>
+			<code>sudo mv torctl /usr/local/bin/torctl</code>
+			<br><br>
+			Congratulations, you've sucessfully installed Torctl.
+			<br>
+			</p>
+			<h2 class=section-header>Usage</h2>
+			<p class=main-text>
+			Torctl is so simple, you'll probably be able to figure out how it works by just reading the help page.
+			<br>
+			<code>torctl --help</code>
+			</p>
+			<div class=image-frame style='width:700px'>
+				<img src=../Images/torctl-help.png class=image>
+				<hr style='border-color:#0f0'>
+				<p class=main-text style='text-align:center'>Torctl help page</p>
+			</div>
+			<p class=main-text>
+			To start Torctl and route your connection through Tor, use this command
+			<br>
+			<code>sudo torctl start</code>
+			<br><br>
+			You can also stop the program and route your connection through the clearnet
+			<br>
+			<code>sudo torctl stop</code>
+			<br><br>
+			Sometimes, you'll need a new Tor circut
+			<br>
+			<code>sudo torctl chngid</code>
+			<br><br>
+			There are other commands and I suggest looking through them just to get a better understanding of the program as a whole.
+			<br><br><br>
+			Torctl is a great tool for keeping your data private, hopefully you've learned how to install and use it. If you have any questions, feel free to contact me. I'm happy to help.
+			<br><br><br><br><br>
+			</p>
+		</div>
+		<meta name="fediverse:creator" content="@_Wren@mastodon.social">
+	</body>
+</html>
